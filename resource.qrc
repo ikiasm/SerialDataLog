@@ -1,2 +1,21 @@
-<!DOCTYPE RCC>
-<RCC version="1.0"/>
+<RCC>
+    <qresource prefix="/rsc">
+        <file>Img/upload_download-firmware.jpg</file>
+        <file>Img/save.png</file>
+        <file>Img/quit.png</file>
+        <file>Img/play_pause.png</file>
+        <file>Img/play_pause.bmp</file>
+        <file>Img/pin-planner.png</file>
+        <file>Img/pin-planner-mc.png</file>
+        <file>Img/pin-planner-2.png</file>
+        <file>Img/open.png</file>
+        <file>Img/onoff-verde.png</file>
+        <file>Img/onoff-rojo.png</file>
+        <file>Img/load.png</file>
+        <file>Img/firmware-upload-icon.png</file>
+        <file>Img/firmware-upgrade-icon.png</file>
+        <file>Img/firmware-update-icon.png</file>
+        <file>Img/filenewdefault.png</file>
+        <file>Img/filenew.png</file>
+    </qresource>
+</RCC>
