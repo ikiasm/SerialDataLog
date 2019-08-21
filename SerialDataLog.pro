@@ -6,6 +6,8 @@
 
 QT       += core gui
 
+QT += widgets serialport
+
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = SerialDataLog
@@ -26,13 +28,16 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    configserie.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    configserie.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    configserie.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
